@@ -435,7 +435,7 @@ class Table:
             start_row = example_row + len(example_text) + 1
         else:
             start_row = example_row + len(example_text)
-        data.write(start_row, example_column + 1, ugettext('https://ksatimetable.herokuapp.com'))
+        data.write(start_row, example_column + 1, ugettext('https://timetable.ksaidev.com/'))
         data.write(start_row + 1, example_column + 1, ugettext('버그, 문의사항 등은 20-017 김병권'))
         data.write(start_row + 2, example_column + 1, ugettext(f'key: {self.key}'))
         workbook.close()
